@@ -1,0 +1,1544 @@
+{
+  "version": 1,
+  "author": "Generated with Claude",
+  "editor": "wokwi",
+  "parts": [
+    {
+      "id": "uno",
+      "type": "wokwi-arduino-uno",
+      "top": 100,
+      "left": -50,
+      "attrs": {}
+    },
+    {
+      "id": "r0",
+      "type": "wokwi-resistor",
+      "top": 16,
+      "left": 430,
+      "rotate": 0,
+      "attrs": {
+        "value": "220"
+      }
+    },
+    {
+      "id": "r1",
+      "type": "wokwi-resistor",
+      "top": 48,
+      "left": 430,
+      "rotate": 0,
+      "attrs": {
+        "value": "220"
+      }
+    },
+    {
+      "id": "r2",
+      "type": "wokwi-resistor",
+      "top": 80,
+      "left": 430,
+      "rotate": 0,
+      "attrs": {
+        "value": "220"
+      }
+    },
+    {
+      "id": "r3",
+      "type": "wokwi-resistor",
+      "top": 112,
+      "left": 430,
+      "rotate": 0,
+      "attrs": {
+        "value": "220"
+      }
+    },
+    {
+      "id": "r4",
+      "type": "wokwi-resistor",
+      "top": 144,
+      "left": 430,
+      "rotate": 0,
+      "attrs": {
+        "value": "220"
+      }
+    },
+    {
+      "id": "r5",
+      "type": "wokwi-resistor",
+      "top": 176,
+      "left": 430,
+      "rotate": 0,
+      "attrs": {
+        "value": "220"
+      }
+    },
+    {
+      "id": "r6",
+      "type": "wokwi-resistor",
+      "top": 208,
+      "left": 430,
+      "rotate": 0,
+      "attrs": {
+        "value": "220"
+      }
+    },
+    {
+      "id": "r7",
+      "type": "wokwi-resistor",
+      "top": 240,
+      "left": 430,
+      "rotate": 0,
+      "attrs": {
+        "value": "220"
+      }
+    },
+    {
+      "id": "led_r0_c0",
+      "type": "wokwi-led",
+      "top": 20,
+      "left": 560,
+      "attrs": {
+        "color": "red"
+      }
+    },
+    {
+      "id": "led_r0_c1",
+      "type": "wokwi-led",
+      "top": 20,
+      "left": 592,
+      "attrs": {
+        "color": "red"
+      }
+    },
+    {
+      "id": "led_r0_c2",
+      "type": "wokwi-led",
+      "top": 20,
+      "left": 624,
+      "attrs": {
+        "color": "red"
+      }
+    },
+    {
+      "id": "led_r0_c3",
+      "type": "wokwi-led",
+      "top": 20,
+      "left": 656,
+      "attrs": {
+        "color": "red"
+      }
+    },
+    {
+      "id": "led_r0_c4",
+      "type": "wokwi-led",
+      "top": 20,
+      "left": 688,
+      "attrs": {
+        "color": "red"
+      }
+    },
+    {
+      "id": "led_r0_c5",
+      "type": "wokwi-led",
+      "top": 20,
+      "left": 720,
+      "attrs": {
+        "color": "red"
+      }
+    },
+    {
+      "id": "led_r0_c6",
+      "type": "wokwi-led",
+      "top": 20,
+      "left": 752,
+      "attrs": {
+        "color": "red"
+      }
+    },
+    {
+      "id": "led_r0_c7",
+      "type": "wokwi-led",
+      "top": 20,
+      "left": 784,
+      "attrs": {
+        "color": "red"
+      }
+    },
+    {
+      "id": "led_r1_c0",
+      "type": "wokwi-led",
+      "top": 52,
+      "left": 560,
+      "attrs": {
+        "color": "red"
+      }
+    },
+    {
+      "id": "led_r1_c1",
+      "type": "wokwi-led",
+      "top": 52,
+      "left": 592,
+      "attrs": {
+        "color": "red"
+      }
+    },
+    {
+      "id": "led_r1_c2",
+      "type": "wokwi-led",
+      "top": 52,
+      "left": 624,
+      "attrs": {
+        "color": "red"
+      }
+    },
+    {
+      "id": "led_r1_c3",
+      "type": "wokwi-led",
+      "top": 52,
+      "left": 656,
+      "attrs": {
+        "color": "red"
+      }
+    },
+    {
+      "id": "led_r1_c4",
+      "type": "wokwi-led",
+      "top": 52,
+      "left": 688,
+      "attrs": {
+        "color": "red"
+      }
+    },
+    {
+      "id": "led_r1_c5",
+      "type": "wokwi-led",
+      "top": 52,
+      "left": 720,
+      "attrs": {
+        "color": "red"
+      }
+    },
+    {
+      "id": "led_r1_c6",
+      "type": "wokwi-led",
+      "top": 52,
+      "left": 752,
+      "attrs": {
+        "color": "red"
+      }
+    },
+    {
+      "id": "led_r1_c7",
+      "type": "wokwi-led",
+      "top": 52,
+      "left": 784,
+      "attrs": {
+        "color": "red"
+      }
+    },
+    {
+      "id": "led_r2_c0",
+      "type": "wokwi-led",
+      "top": 84,
+      "left": 560,
+      "attrs": {
+        "color": "red"
+      }
+    },
+    {
+      "id": "led_r2_c1",
+      "type": "wokwi-led",
+      "top": 84,
+      "left": 592,
+      "attrs": {
+        "color": "red"
+      }
+    },
+    {
+      "id": "led_r2_c2",
+      "type": "wokwi-led",
+      "top": 84,
+      "left": 624,
+      "attrs": {
+        "color": "red"
+      }
+    },
+    {
+      "id": "led_r2_c3",
+      "type": "wokwi-led",
+      "top": 84,
+      "left": 656,
+      "attrs": {
+        "color": "red"
+      }
+    },
+    {
+      "id": "led_r2_c4",
+      "type": "wokwi-led",
+      "top": 84,
+      "left": 688,
+      "attrs": {
+        "color": "red"
+      }
+    },
+    {
+      "id": "led_r2_c5",
+      "type": "wokwi-led",
+      "top": 84,
+      "left": 720,
+      "attrs": {
+        "color": "red"
+      }
+    },
+    {
+      "id": "led_r2_c6",
+      "type": "wokwi-led",
+      "top": 84,
+      "left": 752,
+      "attrs": {
+        "color": "red"
+      }
+    },
+    {
+      "id": "led_r2_c7",
+      "type": "wokwi-led",
+      "top": 84,
+      "left": 784,
+      "attrs": {
+        "color": "red"
+      }
+    },
+    {
+      "id": "led_r3_c0",
+      "type": "wokwi-led",
+      "top": 116,
+      "left": 560,
+      "attrs": {
+        "color": "red"
+      }
+    },
+    {
+      "id": "led_r3_c1",
+      "type": "wokwi-led",
+      "top": 116,
+      "left": 592,
+      "attrs": {
+        "color": "red"
+      }
+    },
+    {
+      "id": "led_r3_c2",
+      "type": "wokwi-led",
+      "top": 116,
+      "left": 624,
+      "attrs": {
+        "color": "red"
+      }
+    },
+    {
+      "id": "led_r3_c3",
+      "type": "wokwi-led",
+      "top": 116,
+      "left": 656,
+      "attrs": {
+        "color": "red"
+      }
+    },
+    {
+      "id": "led_r3_c4",
+      "type": "wokwi-led",
+      "top": 116,
+      "left": 688,
+      "attrs": {
+        "color": "red"
+      }
+    },
+    {
+      "id": "led_r3_c5",
+      "type": "wokwi-led",
+      "top": 116,
+      "left": 720,
+      "attrs": {
+        "color": "red"
+      }
+    },
+    {
+      "id": "led_r3_c6",
+      "type": "wokwi-led",
+      "top": 116,
+      "left": 752,
+      "attrs": {
+        "color": "red"
+      }
+    },
+    {
+      "id": "led_r3_c7",
+      "type": "wokwi-led",
+      "top": 116,
+      "left": 784,
+      "attrs": {
+        "color": "red"
+      }
+    },
+    {
+      "id": "led_r4_c0",
+      "type": "wokwi-led",
+      "top": 148,
+      "left": 560,
+      "attrs": {
+        "color": "red"
+      }
+    },
+    {
+      "id": "led_r4_c1",
+      "type": "wokwi-led",
+      "top": 148,
+      "left": 592,
+      "attrs": {
+        "color": "red"
+      }
+    },
+    {
+      "id": "led_r4_c2",
+      "type": "wokwi-led",
+      "top": 148,
+      "left": 624,
+      "attrs": {
+        "color": "red"
+      }
+    },
+    {
+      "id": "led_r4_c3",
+      "type": "wokwi-led",
+      "top": 148,
+      "left": 656,
+      "attrs": {
+        "color": "red"
+      }
+    },
+    {
+      "id": "led_r4_c4",
+      "type": "wokwi-led",
+      "top": 148,
+      "left": 688,
+      "attrs": {
+        "color": "red"
+      }
+    },
+    {
+      "id": "led_r4_c5",
+      "type": "wokwi-led",
+      "top": 148,
+      "left": 720,
+      "attrs": {
+        "color": "red"
+      }
+    },
+    {
+      "id": "led_r4_c6",
+      "type": "wokwi-led",
+      "top": 148,
+      "left": 752,
+      "attrs": {
+        "color": "red"
+      }
+    },
+    {
+      "id": "led_r4_c7",
+      "type": "wokwi-led",
+      "top": 148,
+      "left": 784,
+      "attrs": {
+        "color": "red"
+      }
+    },
+    {
+      "id": "led_r5_c0",
+      "type": "wokwi-led",
+      "top": 180,
+      "left": 560,
+      "attrs": {
+        "color": "red"
+      }
+    },
+    {
+      "id": "led_r5_c1",
+      "type": "wokwi-led",
+      "top": 180,
+      "left": 592,
+      "attrs": {
+        "color": "red"
+      }
+    },
+    {
+      "id": "led_r5_c2",
+      "type": "wokwi-led",
+      "top": 180,
+      "left": 624,
+      "attrs": {
+        "color": "red"
+      }
+    },
+    {
+      "id": "led_r5_c3",
+      "type": "wokwi-led",
+      "top": 180,
+      "left": 656,
+      "attrs": {
+        "color": "red"
+      }
+    },
+    {
+      "id": "led_r5_c4",
+      "type": "wokwi-led",
+      "top": 180,
+      "left": 688,
+      "attrs": {
+        "color": "red"
+      }
+    },
+    {
+      "id": "led_r5_c5",
+      "type": "wokwi-led",
+      "top": 180,
+      "left": 720,
+      "attrs": {
+        "color": "red"
+      }
+    },
+    {
+      "id": "led_r5_c6",
+      "type": "wokwi-led",
+      "top": 180,
+      "left": 752,
+      "attrs": {
+        "color": "red"
+      }
+    },
+    {
+      "id": "led_r5_c7",
+      "type": "wokwi-led",
+      "top": 180,
+      "left": 784,
+      "attrs": {
+        "color": "red"
+      }
+    },
+    {
+      "id": "led_r6_c0",
+      "type": "wokwi-led",
+      "top": 212,
+      "left": 560,
+      "attrs": {
+        "color": "red"
+      }
+    },
+    {
+      "id": "led_r6_c1",
+      "type": "wokwi-led",
+      "top": 212,
+      "left": 592,
+      "attrs": {
+        "color": "red"
+      }
+    },
+    {
+      "id": "led_r6_c2",
+      "type": "wokwi-led",
+      "top": 212,
+      "left": 624,
+      "attrs": {
+        "color": "red"
+      }
+    },
+    {
+      "id": "led_r6_c3",
+      "type": "wokwi-led",
+      "top": 212,
+      "left": 656,
+      "attrs": {
+        "color": "red"
+      }
+    },
+    {
+      "id": "led_r6_c4",
+      "type": "wokwi-led",
+      "top": 212,
+      "left": 688,
+      "attrs": {
+        "color": "red"
+      }
+    },
+    {
+      "id": "led_r6_c5",
+      "type": "wokwi-led",
+      "top": 212,
+      "left": 720,
+      "attrs": {
+        "color": "red"
+      }
+    },
+    {
+      "id": "led_r6_c6",
+      "type": "wokwi-led",
+      "top": 212,
+      "left": 752,
+      "attrs": {
+        "color": "red"
+      }
+    },
+    {
+      "id": "led_r6_c7",
+      "type": "wokwi-led",
+      "top": 212,
+      "left": 784,
+      "attrs": {
+        "color": "red"
+      }
+    },
+    {
+      "id": "led_r7_c0",
+      "type": "wokwi-led",
+      "top": 244,
+      "left": 560,
+      "attrs": {
+        "color": "red"
+      }
+    },
+    {
+      "id": "led_r7_c1",
+      "type": "wokwi-led",
+      "top": 244,
+      "left": 592,
+      "attrs": {
+        "color": "red"
+      }
+    },
+    {
+      "id": "led_r7_c2",
+      "type": "wokwi-led",
+      "top": 244,
+      "left": 624,
+      "attrs": {
+        "color": "red"
+      }
+    },
+    {
+      "id": "led_r7_c3",
+      "type": "wokwi-led",
+      "top": 244,
+      "left": 656,
+      "attrs": {
+        "color": "red"
+      }
+    },
+    {
+      "id": "led_r7_c4",
+      "type": "wokwi-led",
+      "top": 244,
+      "left": 688,
+      "attrs": {
+        "color": "red"
+      }
+    },
+    {
+      "id": "led_r7_c5",
+      "type": "wokwi-led",
+      "top": 244,
+      "left": 720,
+      "attrs": {
+        "color": "red"
+      }
+    },
+    {
+      "id": "led_r7_c6",
+      "type": "wokwi-led",
+      "top": 244,
+      "left": 752,
+      "attrs": {
+        "color": "red"
+      }
+    },
+    {
+      "id": "led_r7_c7",
+      "type": "wokwi-led",
+      "top": 244,
+      "left": 784,
+      "attrs": {
+        "color": "red"
+      }
+    },
+    {
+      "id": "joy1",
+      "type": "wokwi-analog-joystick",
+      "top": 420,
+      "left": -60,
+      "attrs": {}
+    },
+    {
+      "id": "bz1",
+      "type": "wokwi-buzzer",
+      "top": 420,
+      "left": 140,
+      "attrs": {}
+    }
+  ],
+  "connections": [
+    [
+      "uno:2",
+      "r0:1",
+      "gold",
+      []
+    ],
+    [
+      "uno:3",
+      "r1:1",
+      "gold",
+      []
+    ],
+    [
+      "uno:4",
+      "r2:1",
+      "gold",
+      []
+    ],
+    [
+      "uno:5",
+      "r3:1",
+      "gold",
+      []
+    ],
+    [
+      "uno:6",
+      "r4:1",
+      "gold",
+      []
+    ],
+    [
+      "uno:7",
+      "r5:1",
+      "gold",
+      []
+    ],
+    [
+      "uno:8",
+      "r6:1",
+      "gold",
+      []
+    ],
+    [
+      "uno:9",
+      "r7:1",
+      "gold",
+      []
+    ],
+    [
+      "r0:2",
+      "led_r0_c0:A",
+      "red",
+      []
+    ],
+    [
+      "led_r0_c0:C",
+      "uno:10",
+      "green",
+      []
+    ],
+    [
+      "r0:2",
+      "led_r0_c1:A",
+      "red",
+      []
+    ],
+    [
+      "led_r0_c1:C",
+      "uno:11",
+      "green",
+      []
+    ],
+    [
+      "r0:2",
+      "led_r0_c2:A",
+      "red",
+      []
+    ],
+    [
+      "led_r0_c2:C",
+      "uno:12",
+      "green",
+      []
+    ],
+    [
+      "r0:2",
+      "led_r0_c3:A",
+      "red",
+      []
+    ],
+    [
+      "led_r0_c3:C",
+      "uno:13",
+      "green",
+      []
+    ],
+    [
+      "r0:2",
+      "led_r0_c4:A",
+      "red",
+      []
+    ],
+    [
+      "led_r0_c4:C",
+      "uno:A0",
+      "green",
+      []
+    ],
+    [
+      "r0:2",
+      "led_r0_c5:A",
+      "red",
+      []
+    ],
+    [
+      "led_r0_c5:C",
+      "uno:A1",
+      "green",
+      []
+    ],
+    [
+      "r0:2",
+      "led_r0_c6:A",
+      "red",
+      []
+    ],
+    [
+      "led_r0_c6:C",
+      "uno:A2",
+      "green",
+      []
+    ],
+    [
+      "r0:2",
+      "led_r0_c7:A",
+      "red",
+      []
+    ],
+    [
+      "led_r0_c7:C",
+      "uno:A3",
+      "green",
+      []
+    ],
+    [
+      "r1:2",
+      "led_r1_c0:A",
+      "red",
+      []
+    ],
+    [
+      "led_r1_c0:C",
+      "uno:10",
+      "green",
+      []
+    ],
+    [
+      "r1:2",
+      "led_r1_c1:A",
+      "red",
+      []
+    ],
+    [
+      "led_r1_c1:C",
+      "uno:11",
+      "green",
+      []
+    ],
+    [
+      "r1:2",
+      "led_r1_c2:A",
+      "red",
+      []
+    ],
+    [
+      "led_r1_c2:C",
+      "uno:12",
+      "green",
+      []
+    ],
+    [
+      "r1:2",
+      "led_r1_c3:A",
+      "red",
+      []
+    ],
+    [
+      "led_r1_c3:C",
+      "uno:13",
+      "green",
+      []
+    ],
+    [
+      "r1:2",
+      "led_r1_c4:A",
+      "red",
+      []
+    ],
+    [
+      "led_r1_c4:C",
+      "uno:A0",
+      "green",
+      []
+    ],
+    [
+      "r1:2",
+      "led_r1_c5:A",
+      "red",
+      []
+    ],
+    [
+      "led_r1_c5:C",
+      "uno:A1",
+      "green",
+      []
+    ],
+    [
+      "r1:2",
+      "led_r1_c6:A",
+      "red",
+      []
+    ],
+    [
+      "led_r1_c6:C",
+      "uno:A2",
+      "green",
+      []
+    ],
+    [
+      "r1:2",
+      "led_r1_c7:A",
+      "red",
+      []
+    ],
+    [
+      "led_r1_c7:C",
+      "uno:A3",
+      "green",
+      []
+    ],
+    [
+      "r2:2",
+      "led_r2_c0:A",
+      "red",
+      []
+    ],
+    [
+      "led_r2_c0:C",
+      "uno:10",
+      "green",
+      []
+    ],
+    [
+      "r2:2",
+      "led_r2_c1:A",
+      "red",
+      []
+    ],
+    [
+      "led_r2_c1:C",
+      "uno:11",
+      "green",
+      []
+    ],
+    [
+      "r2:2",
+      "led_r2_c2:A",
+      "red",
+      []
+    ],
+    [
+      "led_r2_c2:C",
+      "uno:12",
+      "green",
+      []
+    ],
+    [
+      "r2:2",
+      "led_r2_c3:A",
+      "red",
+      []
+    ],
+    [
+      "led_r2_c3:C",
+      "uno:13",
+      "green",
+      []
+    ],
+    [
+      "r2:2",
+      "led_r2_c4:A",
+      "red",
+      []
+    ],
+    [
+      "led_r2_c4:C",
+      "uno:A0",
+      "green",
+      []
+    ],
+    [
+      "r2:2",
+      "led_r2_c5:A",
+      "red",
+      []
+    ],
+    [
+      "led_r2_c5:C",
+      "uno:A1",
+      "green",
+      []
+    ],
+    [
+      "r2:2",
+      "led_r2_c6:A",
+      "red",
+      []
+    ],
+    [
+      "led_r2_c6:C",
+      "uno:A2",
+      "green",
+      []
+    ],
+    [
+      "r2:2",
+      "led_r2_c7:A",
+      "red",
+      []
+    ],
+    [
+      "led_r2_c7:C",
+      "uno:A3",
+      "green",
+      []
+    ],
+    [
+      "r3:2",
+      "led_r3_c0:A",
+      "red",
+      []
+    ],
+    [
+      "led_r3_c0:C",
+      "uno:10",
+      "green",
+      []
+    ],
+    [
+      "r3:2",
+      "led_r3_c1:A",
+      "red",
+      []
+    ],
+    [
+      "led_r3_c1:C",
+      "uno:11",
+      "green",
+      []
+    ],
+    [
+      "r3:2",
+      "led_r3_c2:A",
+      "red",
+      []
+    ],
+    [
+      "led_r3_c2:C",
+      "uno:12",
+      "green",
+      []
+    ],
+    [
+      "r3:2",
+      "led_r3_c3:A",
+      "red",
+      []
+    ],
+    [
+      "led_r3_c3:C",
+      "uno:13",
+      "green",
+      []
+    ],
+    [
+      "r3:2",
+      "led_r3_c4:A",
+      "red",
+      []
+    ],
+    [
+      "led_r3_c4:C",
+      "uno:A0",
+      "green",
+      []
+    ],
+    [
+      "r3:2",
+      "led_r3_c5:A",
+      "red",
+      []
+    ],
+    [
+      "led_r3_c5:C",
+      "uno:A1",
+      "green",
+      []
+    ],
+    [
+      "r3:2",
+      "led_r3_c6:A",
+      "red",
+      []
+    ],
+    [
+      "led_r3_c6:C",
+      "uno:A2",
+      "green",
+      []
+    ],
+    [
+      "r3:2",
+      "led_r3_c7:A",
+      "red",
+      []
+    ],
+    [
+      "led_r3_c7:C",
+      "uno:A3",
+      "green",
+      []
+    ],
+    [
+      "r4:2",
+      "led_r4_c0:A",
+      "red",
+      []
+    ],
+    [
+      "led_r4_c0:C",
+      "uno:10",
+      "green",
+      []
+    ],
+    [
+      "r4:2",
+      "led_r4_c1:A",
+      "red",
+      []
+    ],
+    [
+      "led_r4_c1:C",
+      "uno:11",
+      "green",
+      []
+    ],
+    [
+      "r4:2",
+      "led_r4_c2:A",
+      "red",
+      []
+    ],
+    [
+      "led_r4_c2:C",
+      "uno:12",
+      "green",
+      []
+    ],
+    [
+      "r4:2",
+      "led_r4_c3:A",
+      "red",
+      []
+    ],
+    [
+      "led_r4_c3:C",
+      "uno:13",
+      "green",
+      []
+    ],
+    [
+      "r4:2",
+      "led_r4_c4:A",
+      "red",
+      []
+    ],
+    [
+      "led_r4_c4:C",
+      "uno:A0",
+      "green",
+      []
+    ],
+    [
+      "r4:2",
+      "led_r4_c5:A",
+      "red",
+      []
+    ],
+    [
+      "led_r4_c5:C",
+      "uno:A1",
+      "green",
+      []
+    ],
+    [
+      "r4:2",
+      "led_r4_c6:A",
+      "red",
+      []
+    ],
+    [
+      "led_r4_c6:C",
+      "uno:A2",
+      "green",
+      []
+    ],
+    [
+      "r4:2",
+      "led_r4_c7:A",
+      "red",
+      []
+    ],
+    [
+      "led_r4_c7:C",
+      "uno:A3",
+      "green",
+      []
+    ],
+    [
+      "r5:2",
+      "led_r5_c0:A",
+      "red",
+      []
+    ],
+    [
+      "led_r5_c0:C",
+      "uno:10",
+      "green",
+      []
+    ],
+    [
+      "r5:2",
+      "led_r5_c1:A",
+      "red",
+      []
+    ],
+    [
+      "led_r5_c1:C",
+      "uno:11",
+      "green",
+      []
+    ],
+    [
+      "r5:2",
+      "led_r5_c2:A",
+      "red",
+      []
+    ],
+    [
+      "led_r5_c2:C",
+      "uno:12",
+      "green",
+      []
+    ],
+    [
+      "r5:2",
+      "led_r5_c3:A",
+      "red",
+      []
+    ],
+    [
+      "led_r5_c3:C",
+      "uno:13",
+      "green",
+      []
+    ],
+    [
+      "r5:2",
+      "led_r5_c4:A",
+      "red",
+      []
+    ],
+    [
+      "led_r5_c4:C",
+      "uno:A0",
+      "green",
+      []
+    ],
+    [
+      "r5:2",
+      "led_r5_c5:A",
+      "red",
+      []
+    ],
+    [
+      "led_r5_c5:C",
+      "uno:A1",
+      "green",
+      []
+    ],
+    [
+      "r5:2",
+      "led_r5_c6:A",
+      "red",
+      []
+    ],
+    [
+      "led_r5_c6:C",
+      "uno:A2",
+      "green",
+      []
+    ],
+    [
+      "r5:2",
+      "led_r5_c7:A",
+      "red",
+      []
+    ],
+    [
+      "led_r5_c7:C",
+      "uno:A3",
+      "green",
+      []
+    ],
+    [
+      "r6:2",
+      "led_r6_c0:A",
+      "red",
+      []
+    ],
+    [
+      "led_r6_c0:C",
+      "uno:10",
+      "green",
+      []
+    ],
+    [
+      "r6:2",
+      "led_r6_c1:A",
+      "red",
+      []
+    ],
+    [
+      "led_r6_c1:C",
+      "uno:11",
+      "green",
+      []
+    ],
+    [
+      "r6:2",
+      "led_r6_c2:A",
+      "red",
+      []
+    ],
+    [
+      "led_r6_c2:C",
+      "uno:12",
+      "green",
+      []
+    ],
+    [
+      "r6:2",
+      "led_r6_c3:A",
+      "red",
+      []
+    ],
+    [
+      "led_r6_c3:C",
+      "uno:13",
+      "green",
+      []
+    ],
+    [
+      "r6:2",
+      "led_r6_c4:A",
+      "red",
+      []
+    ],
+    [
+      "led_r6_c4:C",
+      "uno:A0",
+      "green",
+      []
+    ],
+    [
+      "r6:2",
+      "led_r6_c5:A",
+      "red",
+      []
+    ],
+    [
+      "led_r6_c5:C",
+      "uno:A1",
+      "green",
+      []
+    ],
+    [
+      "r6:2",
+      "led_r6_c6:A",
+      "red",
+      []
+    ],
+    [
+      "led_r6_c6:C",
+      "uno:A2",
+      "green",
+      []
+    ],
+    [
+      "r6:2",
+      "led_r6_c7:A",
+      "red",
+      []
+    ],
+    [
+      "led_r6_c7:C",
+      "uno:A3",
+      "green",
+      []
+    ],
+    [
+      "r7:2",
+      "led_r7_c0:A",
+      "red",
+      []
+    ],
+    [
+      "led_r7_c0:C",
+      "uno:10",
+      "green",
+      []
+    ],
+    [
+      "r7:2",
+      "led_r7_c1:A",
+      "red",
+      []
+    ],
+    [
+      "led_r7_c1:C",
+      "uno:11",
+      "green",
+      []
+    ],
+    [
+      "r7:2",
+      "led_r7_c2:A",
+      "red",
+      []
+    ],
+    [
+      "led_r7_c2:C",
+      "uno:12",
+      "green",
+      []
+    ],
+    [
+      "r7:2",
+      "led_r7_c3:A",
+      "red",
+      []
+    ],
+    [
+      "led_r7_c3:C",
+      "uno:13",
+      "green",
+      []
+    ],
+    [
+      "r7:2",
+      "led_r7_c4:A",
+      "red",
+      []
+    ],
+    [
+      "led_r7_c4:C",
+      "uno:A0",
+      "green",
+      []
+    ],
+    [
+      "r7:2",
+      "led_r7_c5:A",
+      "red",
+      []
+    ],
+    [
+      "led_r7_c5:C",
+      "uno:A1",
+      "green",
+      []
+    ],
+    [
+      "r7:2",
+      "led_r7_c6:A",
+      "red",
+      []
+    ],
+    [
+      "led_r7_c6:C",
+      "uno:A2",
+      "green",
+      []
+    ],
+    [
+      "r7:2",
+      "led_r7_c7:A",
+      "red",
+      []
+    ],
+    [
+      "led_r7_c7:C",
+      "uno:A3",
+      "green",
+      []
+    ],
+    [
+      "joy1:VCC",
+      "uno:5V",
+      "red",
+      []
+    ],
+    [
+      "joy1:GND",
+      "uno:GND.1",
+      "black",
+      []
+    ],
+    [
+      "joy1:VERT",
+      "uno:A4",
+      "blue",
+      []
+    ],
+    [
+      "joy1:HORZ",
+      "uno:A5",
+      "purple",
+      []
+    ],
+    [
+      "joy1:SEL",
+      "uno:0",
+      "orange",
+      []
+    ],
+    [
+      "bz1:1",
+      "uno:GND.2",
+      "black",
+      []
+    ],
+    [
+      "bz1:2",
+      "uno:1",
+      "orange",
+      []
+    ]
+  ]
+}

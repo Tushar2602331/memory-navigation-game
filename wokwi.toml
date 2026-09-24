@@ -1,0 +1,11 @@
+# Used by the Wokwi CLI / "Wokwi for VS Code" extension / GitHub Actions,
+# to run this simulation from the command line instead of the wokwi.com
+# website. Not needed if you just paste sketch.ino + diagram.json into a
+# new project on wokwi.com.
+#
+# Before using this file, compile the sketch with arduino-cli, e.g.:
+#   arduino-cli compile --fqbn arduino:avr:uno --output-dir build sketch.ino
+[wokwi]
+version = 1
+firmware = 'build/sketch.ino.hex'
+elf = 'build/sketch.ino.elf'
